@@ -310,6 +310,7 @@ iframe{
     background-repeat: no-repeat;
     padding:45px 55px;
     border-radius: 16px;
+    margin-bottom: 74px;
 }
 
 
@@ -362,3 +363,35 @@ form{
     font-size: 15px;
     font-weight:bold;
 }
+
+/* -----about------- */
+.about{
+    background-color:#0D132103;
+    padding:30px 141px;
+   
+}
+
+.about-content{
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content h1{
+    font-size:19px;
+    font-weight:400px;
+    color:#0D1321;
+}
+
+.contactme{
+  display: flex;
+  gap:23px;
+  align-items: center;
+}
+
+.contactme img{
+    width:34px;
+    height: 34px;
+}
+
+
