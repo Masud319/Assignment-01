@@ -1,0 +1,364 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: 'Azeret Mono';
+}
+
+p{
+    color:#0D1321;
+    font-weight: lighter;
+    line-height: 26px;
+
+}
+/* header section  */
+
+.download{
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:47px 141px;
+
+}
+h1{
+
+    font-size:26px;
+    font-weight:bolder;
+}
+
+.download button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius:8px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.dl-bg{
+    background-image: url('../../assets/Hero-bg.png');  
+    height:612px;
+    margin:0px;
+    text-align: center; 
+}
+
+.dl-bg img{
+    display:block;
+    margin: 26px auto;
+    padding-top: 22px;
+    width:225px;
+    height: 225px;
+     
+}
+
+.dl-bg h1{
+   
+    width:940px;
+    font-size:45px;
+    margin: 30px auto;
+    line-height: 68px;
+}
+
+.dl-bg p{
+    width:800px;
+    font-size: 15px;
+    margin:30px auto;
+    line-height: 26px;
+    color:#0D1321;
+}
+
+.dl-bg button{
+    background-color:black;
+    width:fit-content;
+    height:fit-content;
+    height: fit-content;
+    padding: 20px;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+
+
+/* ---------Why-dev------- */
+
+.why-dev{
+    height:fit-content;
+    width:fit-content;
+    margin:140px auto;
+    background-color:rgba(13,19,33,.02);
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+
+}
+
+.dev-content{
+    margin:75px 91px;
+}
+
+.why-dev-content{
+    width:fit-content;
+    height:fit-content;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.why-dev-content>h1{
+    font-size:30px;
+    font-weight: 800px;
+}
+.why-dev-content>p{
+    font-size:15px;
+    margin-top: 174px;
+    color:#0D1321;
+    width:800px;
+   
+}
+
+.why-dev-details{
+
+    text-align: center;
+}
+
+.detail{
+    background-image:linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,1));
+    display:flex;
+    justify-content:space-between;
+    gap:92px;
+    width:fit-content;
+    height:fit-content;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    padding: 48px;
+}
+
+.detail-description{
+    width:448px;
+}
+
+.detail h1{
+    font-size:24px;
+    text-align:left;
+    width:fit-content;
+    line-height:36px;
+}
+
+.detail img{
+    width:258px;
+    height:226px;
+}
+
+.detail p {
+    font-size:15px;
+    font-weight: normal;
+    text-align: left;
+    color:#0D1321;
+    line-height: 26px;
+}
+
+.detail button{
+    float:left;
+    background-color: white;
+    border-radius:none;
+    border:1px solid black;
+    padding: 12px 19px;
+    font-size:19px;
+    font-weight: 600px;
+    margin-top: 41px;
+}
+
+/* ----My inspiration------ */
+
+.inspiration{
+      width:fit-content;
+      margin:140px auto;
+      text-align: center;
+      
+
+}
+
+
+.inspiration h1{
+     width:fit-content;
+     margin:0px auto;
+     margin-bottom: 22px;
+     font-size:30px;
+     font-weight: bolder;
+
+}
+
+
+.inspiration p{
+     width:800px;
+     margin:0px auto;
+     margin-bottom: 45px;
+     font-size:15px;
+     line-height: 25px;
+     color:#0D1321;
+
+}
+
+.ytvid{
+     border:1px solid #0D132120; 
+     padding: 31px;
+     border-radius: 16px;
+}
+
+iframe{
+   
+    border-radius: 16px;
+}
+
+/* ----Target------- */
+
+.target{
+    width:fit-content;
+    margin:0px auto;
+    text-align: center;
+    overflow: hidden;
+}
+.current-target{
+    margin-bottom: 106px;
+}
+
+
+.current-target-title h1{
+    margin:0px auto;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.current-target-title p{
+    width:800px;
+    line-height: 26px;
+    margin:0px auto;
+    font-size: 15px;
+    margin-top: 23px;
+    color:#0D1321;
+    margin-bottom: 45px;
+}
+
+.current-target-card{
+    width:1070px;
+    display:flex;
+    gap:24px;
+    
+    
+}
+
+.target-card{
+    padding:38px;
+    border-radius: 16px;
+
+   
+}
+.card {
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.card p {
+    font-size:15px;
+    font-weight:lighter;
+    color:rgb(13,19,33);
+    line-height: 26px;
+    text-align: left;
+    margin-top:8px;
+}   
+
+.card h1 {
+    font-size:23px;
+    font-weight: bolder;
+    line-height: 35px;
+    text-align: left;
+    margin-top:23px;
+} 
+
+.card a{
+    color:black;
+    font-size: 15px;
+    font-weight: bold   ;
+}
+
+.card img{
+    width:52px;
+    height: 52px;
+}
+
+.next-target{
+    margin-top: 106;
+}
+
+/* ------Support-------- */
+.support{
+      width:fit-content;
+    margin:0px auto;
+    text-align: center;
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2),rgba(0,0,0,.2)),url('/assets/handshake.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding:45px 55px;
+    border-radius: 16px;
+}
+
+
+.support-content {
+    width:950px;
+    text-align: center;
+    
+}
+
+
+.support-content h1{
+    color:white;
+    font-size: 30px;
+}
+
+.support-content p{
+    color:white;
+    font-size: 15px;
+    width:570px;
+    margin:15px auto;     
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:16px;
+}
+
+#comments{
+    resize: none;
+    width:515px;
+    height: 17px;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.sub{
+   
+    width:112px;
+    height: 53px;
+    border-radius: 8px;
+    border:none;
+     margin-top: 23px;
+    background-color: white;
+    font-size: 15px;
+    font-weight:bold;
+}
