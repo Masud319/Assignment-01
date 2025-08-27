@@ -37,6 +37,11 @@ h1{
     padding: 15px 25px;
     font-size: 18px;
     font-weight:bold;
+    
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .dl-bg{
@@ -108,8 +113,10 @@ h1{
 .why-dev-content{
     width:fit-content;
     height:fit-content;
-    margin-bottom: 75px;
+    margin:0 auto 75px auto;
     text-align: center;
+    
+   
 }
 .why-dev-content>h1{
     font-size:30px;
@@ -117,7 +124,7 @@ h1{
 }
 .why-dev-content>p{
     font-size:15px;
-    margin-top: 174px;
+    margin-top:23px;
     color:#0D1321;
     width:800px;
    
